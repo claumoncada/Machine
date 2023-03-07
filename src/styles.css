@@ -1,0 +1,127 @@
+/* Modal */
+.ReactModalPortal > div{
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+.modal-fondo {
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: white;
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    display: inline;
+    max-height: 620px;
+    max-width: 500px;
+    outline: none;
+    padding: 10px;
+}
+
+.encabezado {
+	color: rgb(9, 9, 204);
+    margin: 20px 50px 20px;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(107, 100, 100);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+}
+
+.button {
+    background-color: rgb(36, 36, 190);
+    margin-right: 20px;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 1px 1px 1px rgb(107, 100, 100);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.buttonprueba{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.buttondelete {
+    background-color: rgb(245, 97, 97);
+    margin-right: 20px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 1px 1px 1px rgb(107, 100, 100);
+    border-radius: 5px;
+
+}
+.colorth {
+    color: rgb(35, 86, 224);
+    text-shadow: 1px 1px 1px rgb(107, 100, 100);
+
+}
+
+.colorth2 {
+    color: rgb(189, 38, 33);
+    text-shadow: 1px 1px 1px rgb(107, 100, 100);
+
+}
+
+.anchodelete{
+    color: rgb(189, 38, 33);
+    text-shadow: 1px 1px 1px rgb(107, 100, 100);
+    width: 300px;
+
+}
+
+.anchoid{
+    width: 300px;
+    color: rgb(105, 32, 173);
+    text-shadow: 1px 1px 1px rgb(107, 100, 100);
+
+}
+
+.buttonrestore{
+    background-color: rgb(12, 117, 30);
+    margin-right: 20px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 1px 1px 1px rgb(107, 100, 100);
+    border-radius: 5px;
+
+}
